@@ -28,15 +28,15 @@ Unified backend for exact and approximate SQL execution, plan parsing, and plan 
 
 3. Start API server from project root:
 
-   .venv/bin/python -m uvicorn backend.main:app --reload
+   .venv/bin/python -m uvicorn backend.main:app --reload --port 8093
 
    If you are inside the backend directory, use:
 
-   ../.venv/bin/python -m uvicorn main:app --reload --app-dir ..
+   ../.venv/bin/python -m uvicorn main:app --reload --app-dir .. --port 8093
 
 4. Open docs:
 
-   http://127.0.0.1:8000/docs
+   http://127.0.0.1:8093/docs
 
 ## Core API
 
